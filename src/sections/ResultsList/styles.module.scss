@@ -1,0 +1,40 @@
+.list {
+  padding-top: .5rem;
+}
+@media all and (min-width: 650px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    & > * {
+      flex: 1 50%;
+      max-width: 50%;
+    }
+  }
+}
+@media all and (min-width: 1024px) {
+  .list {
+    & > * {
+      flex: 1 33.33%;
+      max-width: 33.33%;
+    }
+  }
+}
+
+.resultTile {
+  border: 2px solid #EFEFF2;
+  border-top-width: 6px;
+  img {
+    width: 100%;
+  }
+  div {
+    padding: 1rem;
+  }
+}
+
+.footer {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

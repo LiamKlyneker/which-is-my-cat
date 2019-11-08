@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Hind Guntur', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+main {
+	max-width: calc(1200px + 4rem);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3rem 2rem;
+}
+
+// Global styles
+.text-center {
+	text-align: center;
+}
